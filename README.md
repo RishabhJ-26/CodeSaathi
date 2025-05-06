@@ -67,7 +67,7 @@ Feel free to fork the repo and raise a pull request. Contributions and feedback 
 📄 License
 Licensed under the MIT License.
 
-## 👨‍💻 Developed by [Rishabh Jain](https://www.linkedin.com/in/rishabhj-26)
+## 👨‍💻 Developed by [Rishabh Jain](https://www.linkedin.com/in/rishabh-jain-enris)
 
 - 🔗 [GitHub](https://github.com/RishabhJ-26)
 - 💼 [LinkedIn](https://www.linkedin.com/in/rishabhj-26)
