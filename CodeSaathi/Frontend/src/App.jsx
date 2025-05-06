@@ -22,7 +22,7 @@ function App() {
     if (code.length === 0) return;
     setLoading(true);
     try {
-      const response = await axios.post('https://codesaathi-2.onrender.com//ai/get-review', { code })
+      const response = await axios.post('https://codesaathi-2.onrender.com/ai/get-review', { code })
       setReview(response.data)
     } catch (error) {
       console.error("Error fetching review:", error);
