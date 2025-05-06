@@ -82,7 +82,7 @@ function App() {
           )}
         </div>
       </main>
-       <footer className='footer'>Made with <img style={{width:"2rem"}} src="./public/images/heart.png" alt="" /> <a target='_blank' href="https://github.com/RishabhJ-26">  by RISHABH JAIN</a></footer>
+       <footer className='footer'>Made with ❤️<a target='_blank' href="https://github.com/RishabhJ-26"> by RISHABH JAIN</a></footer>
     </>
   )
 }
