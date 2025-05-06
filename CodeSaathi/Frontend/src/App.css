@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 87vh;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height: 87vh;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+
+main .left {
+  background-color: #000000;
+  position: relative;
+  user-select: none !important;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0c0c0c;
+}
+
+/* Removed user-select: text; from .code to prevent text selection */
+.code {
+  user-select: text;
+   /* Allow text selection - removed to disable selection */
+}
+
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgb(219, 219, 255);
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+}
+
+main .right {
+  background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #888;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.npm__react-simple-code-editor__textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.app-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 0;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  user-select: none;
+}
+
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+.footer
+{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 0;
+  padding-top: 1.3rem;
+  color: white;
+  max-width: 600px;
+  margin: 1rem auto;
+
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  gap: .8rem;
+  align-items: center;
+}
