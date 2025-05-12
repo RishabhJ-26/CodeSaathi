@@ -7,7 +7,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Try CodeSaathi Live](https://codesaathi.vercel.app)
+🔗 [Try CodeSaathi Live](https://code-saathi.vercel.app/)
 
 ---
 CodeSaathi is a smart and intuitive code review tool powered by AI. Whether you're fixing bugs, polishing up your code, or just learning to code better, CodeSaathi acts like your coding buddy — spotting issues and suggesting improvements in real-time.
